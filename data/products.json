@@ -6,6 +6,7 @@
     "status": "available",
     "price": 170,
     "currency": "EUR",
+    "condition": "Labs",
     "specs": {
       "cpu": "Intel Core i5 2.9GHz Dual-Core",
       "ram": "8GB DDR3 1867MHz",
@@ -16,6 +17,10 @@
     },
     "description": "MacBook Pro 13\", Early 2015. Vizuāli labs stāvoklis, pilnībā strādājošs. Jauna baterija 2024. gadā. Komplektācijā oriģinālais lādētājs. Pirms pārdošanas tiks veikta pilna datu dzēšana.",
     "includes": ["MagSafe 2 lādētājs"],
+    "contact": {
+      "whatsapp": "+37100000000",
+      "email": "kk@inbox.lv"
+    },
     "images": [
       "img/mbp-2015/01.jpg",
       "img/mbp-2015/02.jpg",
@@ -29,6 +34,7 @@
     "status": "available",
     "price": 220,
     "currency": "EUR",
+    "condition": "Labs",
     "specs": {
       "cpu": "Intel Core i5 3.4GHz Quad-Core",
       "ram": "8GB DDR3 1600MHz",
@@ -37,8 +43,12 @@
       "os": "macOS Catalina 10.15.8",
       "bootcamp": "Windows (Boot Camp)"
     },
-    "description": "iMac 27\", Late 2013. Vizuāli labs stāvoklis, pilnībā strādājošs. 27\" Retina klases ekrāns. NVIDIA GTX 775M grafika. Boot Camp ar Windows. Komplektācijā Magic Mouse un Magic Keyboard (balti, ar vadu uzlādi). Pirms pārdošanas tiks veikta pilna datu dzēšana.",
+    "description": "iMac 27\", Late 2013. Vizuāli labs stāvoklis, pilnībā strādājošs. 27\" ekrāns. NVIDIA GTX 775M grafika. Boot Camp ar Windows. Komplektācijā Magic Mouse un Magic Keyboard (balti, ar Lightning uzlādi). Pirms pārdošanas tiks veikta pilna datu dzēšana.",
     "includes": ["Magic Mouse (balta, Lightning)", "Magic Keyboard (balta, Lightning)", "Strāvas kabelis"],
+    "contact": {
+      "whatsapp": "+37100000000",
+      "email": "kk@inbox.lv"
+    },
     "images": [
       "img/imac-2013/01.jpg",
       "img/imac-2013/02.jpg",
