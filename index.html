@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KK Sale — Lietas pārdošanā</title>
+  <meta name="description" content="Privātu lietu pārdošana. Kvalitatīvas lietotas preces par godīgu cenu." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-kk">KK</span><span class="logo-sale">Sale</span>
+        </div>
+        <p class="tagline">Privātu lietu pārdošana &mdash; Kuldīga</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- FILTRI -->
+  <nav class="filter-bar" aria-label="Kategorijas">
+    <div class="container">
+      <div class="filter-inner">
+        <button class="filter-btn active" data-category="visi">Visi</button>
+        <button class="filter-btn" data-category="elektronika">Elektronika</button>
+        <button class="filter-btn" data-category="māja">Māja</button>
+        <button class="filter-btn" data-category="apģērbs">Apģērbs</button>
+        <button class="filter-btn" data-category="instrumenti">Instrumenti</button>
+        <button class="filter-btn" data-category="cits">Cits</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- GALVENAIS SATURS -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- STATISTIKA -->
+      <div class="stats-bar">
+        <span id="stats-count">Ielādē...</span>
+        <label class="toggle-sold">
+          <input type="checkbox" id="toggle-sold" />
+          Rādīt pārdotās
+        </label>
+      </div>
+
+      <!-- PREČU REŽĢIS -->
+      <div class="product-grid" id="product-grid">
+        <!-- JS renderē šeit -->
+      </div>
+
+      <!-- TUKŠS STĀVOKLIS -->
+      <div class="empty-state hidden" id="empty-state">
+        <p>Šajā kategorijā preču nav.</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Sazinies: <a href="mailto:kupsekaspars@gmail.com">kupsekaspars@gmail.com</a> &nbsp;|&nbsp; <a href="https://wa.me/37120000000" target="_blank" rel="noopener">WhatsApp</a></p>
+      <p class="footer-note">Preces atrodas Kuldīgā. Piegāde iespējama par pašizmaksu.</p>
+    </div>
+  </footer>
+
+  <!-- MODĀLS — preces detaļas -->
+  <div class="modal-overlay hidden" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="Aizvērt">&times;</button>
+      <div class="modal-image-wrap">
+        <img id="modal-image" src="" alt="" />
+      </div>
+      <div class="modal-body">
+        <span class="modal-category" id="modal-category"></span>
+        <h2 class="modal-title" id="modal-title"></h2>
+        <p class="modal-condition" id="modal-condition"></p>
+        <p class="modal-description" id="modal-description"></p>
+        <div class="modal-price" id="modal-price"></div>
+        <div class="modal-actions" id="modal-actions"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

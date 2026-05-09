@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "title": "Sony WH-1000XM4 austiņas",
+    "category": "elektronika",
+    "price": 120,
+    "currency": "EUR",
+    "condition": "Lietotas, labi",
+    "description": "Aktīvā trokšņu slāpēšana, Bluetooth 5.0. Komplektā oriģinālā soma un kabelis. Izmantots apmēram 1 gadu.",
+    "images": ["img/sony-wh1000xm4.jpg"],
+    "sold": false,
+    "contact": {
+      "whatsapp": "+37120000000",
+      "email": "kupsekaspars@gmail.com"
+    }
+  },
+  {
+    "id": 2,
+    "title": "IKEA KALLAX plaukts 2x2",
+    "category": "māja",
+    "price": 35,
+    "currency": "EUR",
+    "condition": "Lietotas, labas",
+    "description": "Balts, 77x77 cm. Nelielas skrāpējuma pēdas aizmugurē. Pašizvedums no Kuldīgas.",
+    "images": ["img/kallax.jpg"],
+    "sold": false,
+    "contact": {
+      "whatsapp": "+37120000000",
+      "email": "kupsekaspars@gmail.com"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Nike Air Max 270, 43. izm.",
+    "category": "apģērbs",
+    "price": 45,
+    "currency": "EUR",
+    "condition": "Lietotas, labas",
+    "description": "Melnas/baltas. Nēsātas apmēram 5 reizes. Oriģinālā kastē.",
+    "images": ["img/nike-am270.jpg"],
+    "sold": false,
+    "contact": {
+      "whatsapp": "+37120000000",
+      "email": "kupsekaspars@gmail.com"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Makita akumulatora urbis DHP482",
+    "category": "instrumenti",
+    "price": 80,
+    "currency": "EUR",
+    "condition": "Lietotas, labas",
+    "description": "18V, 2 akumulatori, lādētājs, soma. Darbojas nevainojami.",
+    "images": ["img/makita-dhp482.jpg"],
+    "sold": false,
+    "contact": {
+      "whatsapp": "+37120000000",
+      "email": "kupsekaspars@gmail.com"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Grāmatas — bizness un MI",
+    "category": "cits",
+    "price": 5,
+    "currency": "EUR",
+    "condition": "Lietotas, labas",
+    "description": "\"Zero to One\", \"AI Superpowers\", \"The Lean Startup\" u.c. Cena par katru. Piegāde iespējama.",
+    "images": ["img/books.jpg"],
+    "sold": true,
+    "contact": {
+      "whatsapp": "+37120000000",
+      "email": "kupsekaspars@gmail.com"
+    }
+  }
+]
