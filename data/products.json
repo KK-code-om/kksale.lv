@@ -15,7 +15,7 @@
       "os": "macOS Monterey 12.7.6",
       "battery": "Jauna baterija (2024)"
     },
-    "description": "MacBook Pro 13\", Early 2015. Vizuāli labs stāvoklis, pilnībā strādājošs. Jauna baterija 2024. gadā. Komplektācijā oriģinālais lādētājs. Pirms pārdošanas tiks veikta pilna datu dzēšana.",
+    "description": "MacBook Pro 13\", Early 2015. Vizuāli labs stāvoklis, pilnībā strādājošs. Jauna baterija 2024. gadā. Komplektācijā oriģinālais MagSafe 2 lādētājs.",
     "includes": ["MagSafe 2 lādētājs"],
     "contact": {
       "whatsapp": "+37100000000",
@@ -40,11 +40,10 @@
       "ram": "8GB DDR3 1600MHz",
       "storage": "1TB SATA HDD",
       "gpu": "NVIDIA GeForce GTX 775M 2GB",
-      "os": "macOS Catalina 10.15.8",
-      "bootcamp": "Windows (Boot Camp)"
+      "os": "macOS Catalina 10.15.8"
     },
-    "description": "iMac 27\", Late 2013. Vizuāli labs stāvoklis, pilnībā strādājošs. 27\" ekrāns. NVIDIA GTX 775M grafika. Boot Camp ar Windows. Komplektācijā Magic Mouse un Magic Keyboard (balti, ar Lightning uzlādi). Pirms pārdošanas tiks veikta pilna datu dzēšana.",
-    "includes": ["Magic Mouse (balta, Lightning)", "Magic Keyboard (balta, Lightning)", "Strāvas kabelis"],
+    "description": "iMac 27\", Late 2013. Vizuāli labs stāvoklis, pilnībā strādājošs. 27\" ekrāns. NVIDIA GTX 775M grafika. Komplektācijā Magic Mouse (lādējas ar Lightning) un Magic Keyboard (darbojas ar baterijām).",
+    "includes": ["Magic Mouse (Lightning uzlāde)", "Magic Keyboard (baterijas)", "Strāvas kabelis"],
     "contact": {
       "whatsapp": "+37100000000",
       "email": "kk@inbox.lv"
