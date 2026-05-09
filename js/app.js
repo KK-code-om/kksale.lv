@@ -60,7 +60,7 @@
 
     // Pievienot click uz kartītēm
     grid.querySelectorAll('.product-card:not(.is-sold)').forEach(card => {
-      card.addEventListener('click', () => openModal(+card.dataset.id));
+      card.addEventListener('click', () => openModal(card.dataset.id));
     });
   }
 
